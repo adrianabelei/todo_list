@@ -2,7 +2,7 @@ var bodyParser= require('body-parser');
 var mongoose = require('mongoose');
 
 //connect to database
-mongoose.connect('mongodb://localhost/todo');
+mongoose.connect('mongoose.connect('mongodb://test:test@ds115573.mlab.com:15573/blabla');
 
 //create schema
 var todoSchema= new mongoose.Schema({
